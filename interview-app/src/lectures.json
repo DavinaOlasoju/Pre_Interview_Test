@@ -1,0 +1,6 @@
+[
+    {"id": 1, "time": "10:00", "module": "SCC 321", "venue": "Margaret Fell"},
+    {"id": 2, "time": "12:00", "module": "SCC 323", "venue": "George Fox"},
+    {"id": 3, "time": "14:00", "module": "SCC 313", "venue": "Management LT 15"},
+    {"id": 4, "time": "14:00", "module": "SCC 341", "venue": "Elizabeth Livingston"}
+]
