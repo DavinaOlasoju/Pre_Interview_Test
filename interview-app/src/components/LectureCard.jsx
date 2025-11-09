@@ -1,3 +1,5 @@
+import del from "../assets/delete.png";
+
 function LectureCard({time, module, venue}) {
 
     function handleDelete() {
@@ -6,11 +8,14 @@ function LectureCard({time, module, venue}) {
 
     return (
     <div className="lecture-card">
-        <div className="time">{time}</div>
-        <div className="module">{module}</div>
-        <div className="venue">{venue}</div>
-        <button className="del-btn" onClick={handleDelete}>
-            <img src={"../assets/delete.png"}/>
+        <div className="lecture-info">
+            <div className="time">{time}</div>
+            <div className="module">{module}</div>
+            <div className="venue">{venue}</div>
+        </div>
+        
+        <button className="delete-btn" onClick={handleDelete}>
+            <img src={del}/>
         </button>
     </div>
   );
